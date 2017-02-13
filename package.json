@@ -1,0 +1,19 @@
+{
+    "name": "deploy-lambdas",
+    "devDependencies": {
+        "jshint": "latest",
+        "mocha": "latest",
+        "jsdoc": "latest",
+        "rimraf": "latest"
+    },
+    "scripts": {
+        "lint": "jshint **.js",
+        "test": "mocha test/",
+        "dist": "./make_dist.sh",
+        "doc": "jsdoc -p **.js -P package.json",
+        "clean": "rimraf dist"
+    },
+    "jshintConfig": {
+        "esversion": 6
+    }
+}
