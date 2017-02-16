@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 mkdir -p dist
-zip dist/ecs-task-update.zip ecs-task-update.js
+zip dist/ecs-task-container-update.zip ecs-task-container-update.js
