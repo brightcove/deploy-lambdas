@@ -56,7 +56,8 @@ var DeployParams = (() => {
      *
      * @throws {String[]} Validation errors for invalid arguments
      */
-    return function(event) {
+    return function(rawEvent) {
+        var event = JSON.parse(rawEvent.Records[0].Sns.Message);
         var errors = requiredParams
             .map(it => event[it] ? null : it + " is required.")
             .filter(it => it);

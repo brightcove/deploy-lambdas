@@ -1,6 +1,13 @@
 deploy-lambdas
 ===
-Lambda(s) to help with deploys. Scripts will contain further documentation.
+Lambda(s) to help with deploys.
+The scripts themselves will contain implementation information using
+[JsDoc](http://usejsdoc.org/), user-type information will be added to the
+[wiki](https://github.com/brightcove/deploy-lambdas/wiki).
+
+Questions?
+[Open an issue](https://github.com/brightcove/deploy-lambdas/issues/new)
+with the question label
 
 Installation
 ---
